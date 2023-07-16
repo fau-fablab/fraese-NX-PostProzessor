@@ -100,7 +100,7 @@ Listfilename                   listfile.lpt
 "$mom_kin_4th_axis_center_offset(2)"      "0.0"
 "$mom_kin_4th_axis_direction"             "MAGNITUDE_DETERMINES_DIRECTION"
 "$mom_kin_4th_axis_incr_switch"           "OFF"
-"$mom_kin_4th_axis_leader"                "B"
+"$mom_kin_4th_axis_leader"                "A"
 "$mom_kin_4th_axis_limit_action"          "Warning"
 "$mom_kin_4th_axis_max_limit"             "360"
 "$mom_kin_4th_axis_min_incr"              "0.001"
@@ -138,7 +138,7 @@ Listfilename                   listfile.lpt
 "$mom_kin_linearization_flag"             "1"
 "$mom_kin_linearization_tol"              "0.01"
 "$mom_kin_machine_resolution"             ".0025"
-"$mom_kin_machine_type"                   "3_axis_mill"
+"$mom_kin_machine_type"                   "4_axis_table"
 "$mom_kin_machine_zero_offset(0)"         "0.0"
 "$mom_kin_machine_zero_offset(1)"         "0.0"
 "$mom_kin_machine_zero_offset(2)"         "0.0"
@@ -884,8 +884,8 @@ Text              ""  0  "Text String"  0
       {"$mom_sys_leader(X)" "X" ""} \
       {"$mom_sys_leader(Y)" "Y" ""} \
       {"$mom_sys_leader(Z)" "Z" ""} \
-      {"$mom_sys_leader(fourth_axis)" "B" ""} \
-      {"$mom_sys_leader(fifth_axis)" "B" ""} \
+      {"$mom_sys_leader(fourth_axis)" "A" ""} \
+      {"$mom_sys_leader(fifth_axis)" "A" ""} \
       {"$mom_sys_contour_feed_mode(LINEAR)" "MMPM" ""} \
       {"$mom_sys_rapid_feed_mode(LINEAR)" "MMPM" ""} \
       {"$mom_sys_cycle_feed_mode" "MMPM" ""} \

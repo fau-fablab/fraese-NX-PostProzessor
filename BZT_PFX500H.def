@@ -471,6 +471,7 @@ FORMATTING
 
   BLOCK_TEMPLATE auto_tool_change_3 
   {
+       S[$mom_spindle_speed]
        M_spindle[$mom_sys_spindle_direction_code($mom_spindle_direction)]\opt
   }
 

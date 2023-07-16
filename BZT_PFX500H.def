@@ -449,6 +449,7 @@ FORMATTING
        G_adjust[$mom_sys_adjust_code]
        G_mode[$mom_sys_output_code(ABSOLUTE)]
        G[$mom_sys_unit_code($mom_output_unit)]
+       G_return[$mom_sys_cycle_ret_code(AUTO)]
   }
 
   BLOCK_TEMPLATE auto_tool_change 

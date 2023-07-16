@@ -310,7 +310,7 @@ Text              ""  0  "Text String"  0
 {Start of Path}            {PB_CMD_start_of_operation_force_addresses}  {$gPB(event,opr_start,start_path,name)}
 {From Move}                {}  {$gPB(event,opr_start,from_move,name)}
 {First Tool}               {}  {$gPB(event,opr_start,fst_tool,name)}
-{Auto Tool Change}         {auto_tool_change PB_CMD_tool_change_force_addresses tool_change tool_change_1 auto_tool_change_1 auto_tool_change_3}  {$gPB(event,opr_start,auto_tc,name)}
+{Auto Tool Change}         {auto_tool_change PB_CMD_tool_change_force_addresses tool_change auto_tool_change_1 auto_tool_change_3}  {$gPB(event,opr_start,auto_tc,name)}
 {Manual Tool Change}       {}  {$gPB(event,opr_start,manual_tc,name)}
 {Initial Move}             {}  {$gPB(event,opr_start,init_move,name)}
 {First Move}               {}  {$gPB(event,opr_start,fst_move,name)}

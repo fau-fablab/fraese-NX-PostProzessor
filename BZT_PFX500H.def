@@ -902,16 +902,11 @@ FORMATTING
 
   BLOCK_TEMPLATE tool_change 
   {
-       G[$mom_sys_return_code]
-  }
-
-  BLOCK_TEMPLATE tool_change_1 
-  {
        T[$mom_tool_number]
        M[$mom_sys_tool_change_code]
   }
 
-  BLOCK_TEMPLATE tool_change_2 
+  BLOCK_TEMPLATE tool_change_1 
   {
        T[$mom_next_tool_number]\opt
   }

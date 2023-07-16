@@ -1540,7 +1540,7 @@ proc PB_auto_tool_change { } {
    MOM_force Once G
    MOM_do_template tool_change
    MOM_force Once T M
-   MOM_do_template tool_change_1
+#   MOM_do_template tool_change_1
    MOM_do_template auto_tool_change_1
    MOM_do_template auto_tool_change_3
 }

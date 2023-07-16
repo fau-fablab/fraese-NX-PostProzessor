@@ -7,7 +7,6 @@ Der Aktuelle Stand ist noch größtenteils ungetestet;
 Benutzung mit Vorsicht - Immer die 3D-Pfade der Maschienensteuerung Prüfen! <br>
 Bekannte Fehler sind:
   - Bohrzyklus fährt *nicht* auf Sicherheitshöhe (Änderung durch G98 aktuell im Test)
-  - G28 zu Beginn des Zyklus verursacht Kollisions-Warnung mit der Werkzeugtaster (Keepout-Area)
 
 ## Fehler und Probleme im NX
 Hier eine Dokumentation bekannter Fehler des NX-CAM

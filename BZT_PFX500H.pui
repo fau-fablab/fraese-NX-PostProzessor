@@ -115,16 +115,23 @@ Listfilename                   listfile.lpt
 "$mom_kin_4th_axis_vector(1)"             "1.0"
 "$mom_kin_4th_axis_vector(2)"             "0.0"
 "$mom_kin_4th_axis_zero"                  "0.0"
+"$mom_kin_5th_axis_ang_offset"            "0.0"
 "$mom_kin_5th_axis_center_offset(0)"      "0.0"
 "$mom_kin_5th_axis_center_offset(1)"      "0.0"
 "$mom_kin_5th_axis_center_offset(2)"      "0.0"
+"$mom_kin_5th_axis_direction"             "MAGNITUDE_DETERMINES_DIRECTION"
 "$mom_kin_5th_axis_incr_switch"           "OFF"
-"$mom_kin_5th_axis_max_limit"             "0.0"
-"$mom_kin_5th_axis_min_incr"              "0.0"
-"$mom_kin_5th_axis_min_limit"             "0.0"
+"$mom_kin_5th_axis_leader"                "A"
+"$mom_kin_5th_axis_limit_action"          "Warning"
+"$mom_kin_5th_axis_max_limit"             "360"
+"$mom_kin_5th_axis_min_incr"              "0.001"
+"$mom_kin_5th_axis_min_limit"             "0"
+"$mom_kin_5th_axis_plane"                 "ZX"
 "$mom_kin_5th_axis_point(0)"              "0.0"
 "$mom_kin_5th_axis_point(1)"              "0.0"
 "$mom_kin_5th_axis_point(2)"              "0.0"
+"$mom_kin_5th_axis_rotation"              "standard"
+"$mom_kin_5th_axis_type"                  "Table"
 "$mom_kin_5th_axis_vector(0)"             "0.0"
 "$mom_kin_5th_axis_vector(1)"             "1.0"
 "$mom_kin_5th_axis_vector(2)"             "0.0"
@@ -243,7 +250,7 @@ G                 "$mom_sys_blank_code"  0  "Other G-Codes"  0
 X                 "$mom_sys_blank_code"  0  "X Axis Position or Canned Cycle X Axis Position"  0
 Y                 "$mom_sys_blank_code"  0  "Y Axis Position or Canned Cycle Y Axis Position"  0
 Z                 "$mom_sys_blank_code"  0  "Z Axis Position or Canned Cycle Z Axis Position"  0
-fourth_axis       "$mom_sys_blank_code"  1  "4th Axis Position"  0
+fourth_axis       "$mom_sys_blank_code"  0  "4th Axis Position"  0
 fifth_axis        "$mom_sys_blank_code"  1  "5th Axis Position"  0
 I                 "$mom_sys_blank_code"  0  "X Axis Position of the Circle Center"  0
 J                 "$mom_sys_blank_code"  0  "Y Axis Position of the Circle Center"  0
@@ -909,6 +916,7 @@ Text              ""  0  "Text String"  0
       {"PB_CMD_enable_ball_center_output" "" "Custom Command"} \
       {"PB_CMD_end_of_alignment_character" "" "Custom Command"} \
       {"PB_CMD_fix_RAPID_SET" "" "Custom Command"} \
+      {"PB_CMD_fourth_axis_rotate_move" "" "Custom Command"} \
       {"PB_CMD_kin_abort_event" "" "Custom Command"} \
       {"PB_CMD_kin_before_output" "" "Custom Command"} \
       {"PB_CMD_kin_end_of_path" "" "Custom Command"} \

@@ -695,7 +695,6 @@ FORMATTING
   BLOCK_TEMPLATE end_of_program_1 
   {
        G_cutcom[$mom_sys_cutcom_code(OFF)]
-       G[$mom_sys_return_code]
   }
 
   BLOCK_TEMPLATE end_of_program_2 
@@ -707,7 +706,6 @@ FORMATTING
   BLOCK_TEMPLATE end_of_program_3 
   {
        G_cutcom[$mom_sys_cutcom_code(OFF)]
-       G[$mom_sys_return_code]
   }
 
   BLOCK_TEMPLATE end_of_program_4 

@@ -243,7 +243,7 @@
   set mom_kin_4th_axis_rotation                 "standard"
   set mom_kin_4th_axis_type                     "Table"
   set mom_kin_4th_axis_vector(0)                "0.0"
-  set mom_kin_4th_axis_vector(1)                "1.0"
+  set mom_kin_4th_axis_vector(1)                "-1.0"
   set mom_kin_4th_axis_vector(2)                "0.0"
   set mom_kin_4th_axis_zero                     "0.0"
   set mom_kin_5th_axis_center_offset(0)         "0.0"
